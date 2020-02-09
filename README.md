@@ -8,10 +8,10 @@ ims: Ims
 Ansible galaxy:
 ---------------
 
-[https://galaxy.ansible.com/devops-toolbox.ims](https://galaxy.ansible.com/devops-toolbox.ims)
+[https://galaxy.ansible.com/devopstoolbox.ims](https://galaxy.ansible.com/devopstoolbox.ims)
 
 ```bash
-ansible-galaxy install devops-toolbox.ims
+ansible-galaxy install devopstoolbox.ims
 ```
 
 Requirements
@@ -60,7 +60,7 @@ Example Playbook
   tasks:
     - name: ims is configured
       import_role:
-        name: devops-toolbox.ims
+        name: devopstoolbox.ims
       vars:
         ims_packages_state: present
         ims_remove_packages: true
@@ -89,4 +89,4 @@ MIT
 Author Information
 ------------------
 
-- [Mihai Criveti](https://www.linkedin.com/in/devops-toolbox.)
+- [Mihai Criveti](https://www.linkedin.com/in/devopstoolbox.)
