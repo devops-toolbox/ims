@@ -1,0 +1,10 @@
+---
+# Template configuration files for ims
+
+- name: template is copied
+  template:
+    src: "{{ item.src }}"
+    dest: "{{ item.dest }}"
+  become: true
+  loop: "{{ ims_templates_copy }}"
+  when: ims_copy_templates
